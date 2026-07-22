@@ -17,7 +17,7 @@ class IntroScreen extends StatelessWidget {
       next: Text("Next",style: AppFonts.janna16bold,),
       done: Text("Done", style:AppFonts.janna16bold),
       onDone: () {
-        // On Done button pressed
+        Navigator.pushNamed(context, 'home_page');
       },
 
       dotsDecorator: DotsDecorator(
